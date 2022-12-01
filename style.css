@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header {
+  width: 100%;
+  height: 940px;
+  background-image: url("./Rectangle\ 1safari_bg.png");
+  background-position: center;
+  background-size: cover;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+.pageBox {
+  max-width: 1123px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 22px;
+  background-color: #886239;
+  color: #fff;
+  width: 215px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cntryImages {
+  width: 1123px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 256px);
+  gap: 82px 31px;
+}
+.cardImgs {
+  width: 256px;
+}
+.cardTxt {
+  height: 50px;
+  border: 1px solid gray;
+  width: 256px;
+  display: flex;
+  align-items: center;
+}
+.panorama {
+  margin-top: 100px;
+  width: 100%;
+  height: 582px;
+  background-image: url("./panorama.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: invert(36%) sepia(69%) saturate(330%) hue-rotate(351deg)
+    brightness(96%) contrast(91%);
+}
+.panCont {
+  position: relative;
+  margin-bottom: 100px;
+}
+.panContent {
+  margin-top: 15px;
+}
+.panTxt {
+  font-family: "Roboto", sand-serif;
+  position: absolute;
+  top: 32px;
+  left: 561.5px;
+  width: 406px;
+  height: 47px;
+  line-height: 46.8px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+.panContentCont {
+  position: absolute;
+  top: 131px;
+  left: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 232px);
+  gap: 67px 33px;
+  color: #fff;
+}
+.offerCont {
+  display: grid;
+  grid-template-columns: 256px 256px 256px 256px;
+  grid-template-rows: repeat(4, 256px);
+  gap: 32px 32px;
+  padding-bottom: 100px;
+  color: #fff;
+  font-family: "Roboto";
+}
+.offerItem1 {
+  background: url("./Rectangle 25.png");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 1/2;
+  filter: brightness(0.6);
+  position: relative;
+}
+.txt {
+  position: absolute;
+}
+.offerItem2 {
+  background: url("./Rectangle 44.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 2/3;
+  filter: brightness(0.6);
+}
+.offerItem3 {
+  background: url("Rectangle 34.jpg");
+  width: 544px;
+  height: 544px;
+  background-size: cover;
+  background-position: center;
+  grid-row: 1 / span 2;
+  grid-column: 3 / span 4;
+  filter: brightness(0.6);
+}
+.offerItem4 {
+  background: url("Rectangle 63.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  filter: brightness(0.6);
+}
+.offerItem5 {
+  background: url("Rectangle 64.jpg");
+  background-size: cover;
+  background-position: center;
+  backface-visibility: visible;
+  width: 256px;
+  height: 256px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  filter: brightness(0.6);
+}
+.offerItem6 {
+  background: url("Rectangle 69.png");
+  width: 544px;
+  height: 544px;
+  background-size: cover;
+  background-position: center;
+  grid-row: 3 / span 4;
+  grid-column: 1 / span 2;
+  filter: brightness(0.6);
+}
+.offerItem7 {
+  background: url("Rectangle 65.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  filter: brightness(0.6);
+}
+.offerItem8 {
+  background: url("Rectangle 67.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 4/5;
+  grid-row: 3/4;
+  filter: brightness(0.6);
+}
+.offerItem9 {
+  background: url("Rectangle 66.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  filter: brightness(0.6);
+}
+.offerItem10 {
+  background: url("Rectangle 68.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 256px;
+  grid-column: 4/5;
+  grid-row: 4/5;
+  filter: brightness(0.6);
+}
+.txt_option {
+  font-size: 16px;
+}
+.txt_option h1 {
+  font-size: 18px;
+  padding: 16px;
+  padding-bottom: 162px;
+}
+.txt_option p {
+  padding: 0px 16px 16px 16px;
+}
+.offerItem1:hover,
+.offerItem2:hover,
+.offerItem3:hover,
+.offerItem4:hover,
+.offerItem5:hover,
+.offerItem6:hover,
+.offerItem7:hover,
+.offerItem8:hover,
+.offerItem9:hover,
+.offerItem10:hover {
+  filter: brightness(1);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 10;
+}
+.map {
+  margin-top: 100px;
+  text-align: center;
+}
+.safari {
+  margin-top: 100px;
+  display: flex;
+}
+.safari > div {
+  flex-direction: column;
+}
+.safari > div + div {
+  margin-left: 32px;
+}
+.gallery {
+  margin-top: 100px;
+  padding-top: 49px;
+  background-color: #886239;
+  height: 785px;
+  color: #fff;
+}
+.galHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.galCont {
+  display: grid;
+  gap: 32px 32px;
+  grid-template-columns: repeat(3, 352px);
+  margin-top: 39px;
+}
+.item1 {
+  background: url("Rectangle 57.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+  grid-column: 1/2;
+}
+.item2 {
+  background: url("Rectangle 58.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+}
+.item3 {
+  background: url("Rectangle 59.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+}
+.item4 {
+  background: url("Rectangle 60.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+}
+.item5 {
+  background: url("Rectangle 61.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+}
+.item6 {
+  background: url("Rectangle 62.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 352px;
+  height: 256px;
+}
+.info h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Serif", sans-serif;
+  color: #886239;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 130%;
+}
+.info p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #1f1e1e;
+}
+.info {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-around;
+}
+.booking {
+  margin-top: 100px;
+  background-color: #eaeaea;
+  width: 100%;
+  height: 552px;
+}
+footer {
+  color: #fff;
+  height: 351px;
+  width: 100%;
+  background-color: #1f1e1e;
+}
+.scrollingBox {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1919px) {
+  .panTxt {
+    left: 757px;
+  }
+  .panContentCont {
+    left: 400px;
+  }
+}
